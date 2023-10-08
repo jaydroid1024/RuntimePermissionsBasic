@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/horizontal_page_margin"
+    android:paddingTop="@dimen/vertical_page_margin"
+    android:paddingRight="@dimen/horizontal_page_margin"
+    android:paddingBottom="@dimen/vertical_page_margin"
+    tools:context=".camera.CameraMainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/horizontal_page_margin"
+                android:text="此示例显示了在运行时请求权限的基本实现。\n单击下面的按钮进行录音测试并播放录音。" />
+
+            <Button
+                android:id="@+id/button_open_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始录音测试" />
+
+            <Button
+                android:id="@+id/button_start_without_perm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="不检查权限开始" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/horizontal_page_margin"
+                android:text="录音存放路径：/data/user/0/com.example.android.basicpermissions/files/audio_record_test_perm_file.mp3" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

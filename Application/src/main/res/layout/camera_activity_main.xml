@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/horizontal_page_margin"
+    android:paddingTop="@dimen/vertical_page_margin"
+    android:paddingRight="@dimen/horizontal_page_margin"
+    android:paddingBottom="@dimen/vertical_page_margin"
+    tools:context=".camera.CameraMainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/horizontal_page_margin"
+                android:text="@string/intro" />
+
+            <Button
+                android:id="@+id/button_open_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/open_camera_preview" />
+
+            <Button
+                android:id="@+id/button_open_camera_without_perm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="不校验权限打开相机" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

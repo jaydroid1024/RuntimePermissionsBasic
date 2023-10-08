@@ -1,0 +1,33 @@
+<!--
+  Copyright 2017 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+
+    <string name="show_camera">显示相机预览</string>
+    <string name="camera_unavailable"><b>无法打开相机。</b>\n当相机不可用（例如它已在使用中）或系统拒绝访问（例如当 相机访问已被禁用）。</string>
+    <string name="intro">此示例显示了在运行时请求权限的基本实现。\n单击下面的按钮请求相机权限并打开全屏相机预览。</string>
+    <string name="open_camera_preview">打开相机预览</string>
+    <string name="app_name">Android 运行时权限测试项目</string>
+    <string name="intro_message"><![CDATA[此示例显示了在运行时请求权限的基本实现。 单击按钮请求相机权限并打开全屏相机预览。注意：“RuntimePermissions”示例提供了对运行时权限的更完整概述可用的功能。]]></string>
+    <string name="camera_access_required">显示相机预览需要相机访问权限。</string>
+    <string name="ok">确定</string>
+    <string name="camera_permission_not_available">权限不可用。</string>
+    <string name="camera_permission_available">权限可用。</string>
+    <string name="camera_permission_granted">已授予所需权限。</string>
+    <string name="camera_permission_denied">权限请求被拒绝。</string>
+    <string name="camera_permission_denied_never_ask_again">权限请求被拒绝且不再询问。</string>
+
+</resources>
